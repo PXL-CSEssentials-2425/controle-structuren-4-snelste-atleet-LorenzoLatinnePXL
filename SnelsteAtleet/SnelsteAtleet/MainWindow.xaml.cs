@@ -21,9 +21,8 @@ namespace SnelsteAtleet
     public partial class MainWindow : Window
     {
         int fastestTime = 0;
-        string currentAthlete = "";
-        string fastestAthelete;
         bool isFirstInput = true;
+        string fastestAthelete;
 
         public MainWindow()
         {
